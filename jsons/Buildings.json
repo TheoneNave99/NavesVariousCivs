@@ -40,7 +40,6 @@
 		"cityStrength": 10,
 		"cityHealth": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "[+15]% Production when constructing [Land] units [in this city]"],
-		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Shooting Range",
@@ -51,5 +50,24 @@
 		"cost": 30,
 		"maintenance": 0,
 		"uniques": ["New [Military] units start with [15] XP [in this city]",  "[+15]% Production when constructing [Archery] units [in this city]", "[+20]% Production when constructing [Ranged Gunpowder] units [in this city]"]
+	},
+	{
+		"name": "Vodka Distillery",
+		"food": 1,
+		"happiness": 3,
+		"cost": 60,
+		"maintenance": 0,
+		"uniques": ["[+3 Gold] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Refinery",
+		"production": 4,
+		"gold": 4,
+		"maintenance": 0,
+		"cost" 150,
+		"uniques": ["[+4 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Coal] tiles [in this city]",
+			    "[+2 Production] from [Oil] tiles [in this city]", "[+1 Production] from [Coal] tiles [in this city]"],
+		"requiredTech": "Industrialization"
 	},
 ]
