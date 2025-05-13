@@ -14,4 +14,31 @@
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
+	{
+			"name": "Army Engineers",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "American High Command",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 15,
+		"range": 1,
+		"cost": 40,
+		"uniques": ["Can build [Land] improvements on tiles"]
+		"promotions": ["Barrage I", "Ignore terrain cost"],
+		"attackSound": "shot"
+	}
+		
+	{
+			"name": "Army Rangers",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "American High Command",
+		"replaces": "Scout",
+		"movement": 8,
+		"strength": 15,
+		"range": 2,
+		"cost": 40,
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking"]
+		"promotions": ["Barrage I", "Ignore terrain cost"],
+		"attackSound": "shot"
+	}
 ]
