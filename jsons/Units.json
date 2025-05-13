@@ -73,7 +73,7 @@
 		"movement": 4,
 		"strength": 35,
 		"cost": 175,
-		"uniques": ["Can move after attacking","[+50]% Strength <when attacking>" ]
+		"uniques": ["Can move after attacking","[+75]% Strength <when attacking>" ]
 		"requiredTech": "Replaceable Parts",
 		"attackSound": "shot"
 	},
