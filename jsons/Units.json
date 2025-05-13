@@ -41,4 +41,40 @@
 		"promotions": ["Barrage I", "Ignore terrain cost"],
 		"attackSound": "shot"
 	}
+	{
+		"name": "Peasant",
+		"unitType": "Sword",
+		"uniqueTo": "Russian Federation",
+		"replaces": "Warrior",
+		"movement": 1,
+		"strength": 10,
+		"cost": 20,
+		"uniques": ["No defensive terrain bonus"]
+		"obsoleteTech": "Civil Service",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Conscript",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Russian Federation",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 20,
+		"cost": 45,
+		"uniques": ["No defensive terrain bonus"]
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mercenary",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Russian Federation",
+		"movement": 4,
+		"strength": 35,
+		"cost": 175,
+		"uniques": ["Can move after attacking","[+50]% Strength <when attacking>" ]
+		"requiredTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
 ]
