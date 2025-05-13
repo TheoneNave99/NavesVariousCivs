@@ -7,7 +7,7 @@
 		"happiness": 12,
 		"culture": 12,
 		"science": 12,
-		"maintenance": 96,
+		"maintenance": 30,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
@@ -24,7 +24,7 @@
 	},
 	{
 		"name": "Propaganda Team",
-        "replaces": "Monument",
+        	"replaces": "Monument",
 		"uniqueTo": "American High Command",
 		"happiness": 1,
 		"faith": 3,
@@ -53,6 +53,7 @@
 	},
 	{
 		"name": "Vodka Distillery",
+		"uniqueTo": "Russian Federation",
 		"food": 1,
 		"happiness": 3,
 		"cost": 60,
@@ -62,6 +63,7 @@
 	},
 	{
 		"name": "Refinery",
+		"uniqueTo": "Russian Federation",
 		"production": 4,
 		"gold": 4,
 		"maintenance": 0,
@@ -70,4 +72,26 @@
 			    "[+2 Production] from [Oil] tiles [in this city]", "[+1 Production] from [Coal] tiles [in this city]"],
 		"requiredTech": "Industrialization"
 	},
+	{
+		"name": "Monument to Greatness",
+		"replaces": "Monument",
+		"uniqueTo": "Roman Repbulic",
+		"culture": 2,
+		"happiness": 2,
+		"maintenance": 0,
+		"cost" 60,
+		"uniques": ["[+15]% Great Person generation [in this city]","Free Great Person"],
+	},
+	{
+		"name": "Legion Barracks",
+		"replaces": "Barracks",
+		"uniqueTo": "Roman Repbulic",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"cost" 30,
+		"uniques": ["[+15]% Great Person generation [in this city]","Free [Legion] appears",
+			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+
 ]
